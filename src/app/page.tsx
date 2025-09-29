@@ -1,7 +1,5 @@
 "use client";
 import { SiteTheme, SiteThemeProvider } from '@/components/sections/ThemeProvider';
-import { useState } from 'react';
-
 import NavbarLayoutSplitBottom from '@/components/navigation/NavbarLayoutSplitBottom/NavbarLayoutSplitBottom';
 import VoidHero from '@/components/sections/layouts/hero/VoidHero';
 import BaseAbout from '@/components/sections/layouts/about/BaseAbout';
@@ -58,9 +56,9 @@ export default function Home() {
           title="Tokenomics"
           description="Our token distribution and allocation."
           kpiItems={[
-            { value: "1M", description: "Total Supply", icon: { type: LucideIcon, name: 'Chart' } },
-            { value: "500K", description: "Liquidity", icon: { type: LucideIcon, name: 'Chart' } },
-            { value: "100K", description: "Marketing", icon: { type: LucideIcon, name: 'Chart' } },
+            { value: "1M", description: "Total Supply", icon: { name: 'Chart' } },
+            { value: "500K", description: "Liquidity", icon: { name: 'Chart' } },
+            { value: "100K", description: "Marketing", icon: { name: 'Chart' } },
           ]}
         />
       </div>
