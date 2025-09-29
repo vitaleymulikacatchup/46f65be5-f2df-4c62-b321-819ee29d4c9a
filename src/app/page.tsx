@@ -58,9 +58,9 @@ export default function Home() {
           title="Tokenomics"
           description="Our token distribution and allocation."
           kpiItems={[
-            { value: "1M", description: "Total Supply", icon: LucideIcon },
-            { value: "500K", description: "Liquidity", icon: LucideIcon },
-            { value: "100K", description: "Marketing", icon: LucideIcon },
+            { value: "1M", description: "Total Supply", icon: { type: LucideIcon, name: 'Chart' } },
+            { value: "500K", description: "Liquidity", icon: { type: LucideIcon, name: 'Chart' } },
+            { value: "100K", description: "Marketing", icon: { type: LucideIcon, name: 'Chart' } },
           ]}
         />
       </div>
