@@ -6,6 +6,7 @@ import BaseAbout from '@/components/sections/layouts/about/BaseAbout';
 import HowToBuy3D from '@/components/sections/layouts/howtobuy/3DHTB';
 import PatternTokenomics from '@/components/sections/layouts/tokenomics/PatternTokenomics';
 import FooterLogoEmphasis from '@/components/footer/FooterLogoEmphasis';
+import { Shield } from 'lucide-react';
 
 const theme: SiteTheme = { styleVariant: 'brainRot', colorTemplate: 2, textAnimation: 'flip' };
 
@@ -56,9 +57,9 @@ export default function Home() {
           title="Tokenomics"
           description="Our token distribution and allocation."
           kpiItems={[
-            { value: "1M", description: "Total Supply", icon: { name: 'Chart' } },
-            { value: "500K", description: "Liquidity", icon: { name: 'Chart' } },
-            { value: "100K", description: "Marketing", icon: { name: 'Chart' } },
+            { value: "1M", description: "Total Supply", icon: Shield },
+            { value: "500K", description: "Liquidity", icon: Shield },
+            { value: "100K", description: "Marketing", icon: Shield },
           ]}
         />
       </div>
@@ -72,8 +73,6 @@ export default function Home() {
             { items: [{ label: "Contact", onClick: () => {}}] },
             { items: [{ label: "Terms of Use", onClick: () => {}}] },
           ]}
-          copyrightText="© 2023 BrainRot"
-          onPrivacyClick={() => {}}
         />
       </div>
     </SiteThemeProvider>
