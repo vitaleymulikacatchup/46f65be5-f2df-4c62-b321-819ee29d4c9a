@@ -41,7 +41,7 @@ export default function Home() {
       <div id="about" data-section="about">
         <BaseAbout
           title="About BrainRot"
-          descriptions={["The future of memecoins is here.", "Embracing creativity and chaos. "]}
+          descriptions={["The future of memecoins is here.", "Embracing creativity and chaos."]}
         />
       </div>
       <div id="how-to-buy" data-section="how-to-buy">

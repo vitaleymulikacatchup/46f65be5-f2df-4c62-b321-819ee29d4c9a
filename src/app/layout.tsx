@@ -35,9 +35,9 @@ export const metadata: Metadata = {
     }],
   },
   twitter: {
-    card:"summary_large_image",
-    title: title,
-    description: description,
+    card: "summary_large_image",
+    title: "BrainRot Memecoin — Bold landing with chaotic brain-rot visuals",
+    description: "BrainRot Memecoin is a bold, community-driven landing that embraces chaotic brain-rot aesthetics while clearly presenting how to buy, tokenomics, and the vibe.",
     images: ["https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/tmp/design-a-simple-high-contrast-logo-for-b-1759143530426-188d0504.jpg"]
   },
   robots: {
